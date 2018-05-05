@@ -1,10 +1,10 @@
-# MongoDB App
+# News_Scraper
 
 ### Overview
 
-In this app, it lets users view and leave comments on the latest news. But the articles are are already on the website; instead, Mongoose and Cheerio are used to scrape news from another site.
+This is a web app that lets users view and leave comments on the latest news. But the user is not going to actually write any articles; instead, Mongoose and Cheerio will scrape the news from another site.
 
-### npm packages:
+### NPM packages used:
 
 1. express
 

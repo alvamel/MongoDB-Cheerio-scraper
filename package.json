@@ -1,27 +1,28 @@
 {
-  "name": "mongodb-homework",
+  "name": "npr_news_scraper",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "WebDev Bootcamp 18 homework - News Scraper app, Mongo, Mongoose, Cheerio(web scraping)",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alvamel/MongoDB-Homework.git"
+    "url": "git+https://github.com/aellyl/NPR_News_Scraper.git"
   },
-  "author": "",
+  "author": "Aelly Liu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alvamel/MongoDB-Homework/issues"
+    "url": "https://github.com/aellyl/NPR_News_Scraper/issues"
   },
-  "homepage": "https://github.com/alvamel/MongoDB-Homework#readme",
+  "homepage": "https://github.com/aellyl/NPR_News_Scraper#readme",
   "dependencies": {
-    "body-parser": "^1.18.2",
+    "body-parser": "^1.17.2",
     "cheerio": "^1.0.0-rc.2",
-    "express": "^4.16.3",
+    "express": "^4.15.4",
     "express-handlebars": "^3.0.0",
-    "mongoose": "^5.0.14",
-    "request": "^2.85.0"
+    "handlebars": "^4.0.10",
+    "mongoose": "^4.11.7",
+    "request": "^2.81.0"
   }
 }
